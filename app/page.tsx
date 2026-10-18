@@ -1,4 +1,6 @@
-﻿const works = [
+import Productos from "./components/productos";
+
+const works = [
   { title: "Sol de tierra", type: "Estudio de color · 2026", style: "sun" },
   { title: "El silencio azul", type: "Composición abstracta · 2026", style: "blue" },
   { title: "Encuentro", type: "Formas y equilibrio · 2026", style: "shapes" },
@@ -10,12 +12,13 @@ export default function Home() {
       <header className="header">
         <a className="brand" href="#inicio" aria-label="Lienzo, inicio">lienzo<span>®</span></a>
         <nav aria-label="Navegación principal">
-          <a href="#obras">Las obras</a>
+          <a href="#productos">Productos</a><a href="#obras">Las obras</a>
           <a href="#nosotros">La galería</a>
           <a className="nav-visit" href="#visita">Visítanos ↗</a>
         </nav>
       </header>
       <main id="inicio">
+        <Productos />
         <section className="hero">
           <div className="hero-copy">
             <p className="eyebrow"><span className="dot" /> UN ESPACIO PARA MIRAR DISTINTO</p>
