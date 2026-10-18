@@ -8,7 +8,7 @@ Next.js con exportación estática para Firebase Hosting (proyecto `upbtest2-ced
 2. En esta carpeta ejecuta `npm.cmd ci` y copia `.env.example` a `.env.local`.
 3. Ejecuta `npm.cmd run dev -- --port 3001` y abre http://localhost:3001.
 
-Sin `NEXT_PUBLIC_API_URL`, la app usa `https://backendupbtest.onrender.com`. Para conectar a otra API cambia esa variable y reinicia el servidor de desarrollo. No incluyas `/api` al final de la URL. El primer inicio de Render puede tardar un minuto.
+Sin `NEXT_PUBLIC_API_URL`, la app usa `https://backendupbtest-1.onrender.com`. Para conectar a otra API cambia esa variable y reinicia el servidor de desarrollo. No incluyas `/api` al final de la URL. El primer inicio de Render puede tardar un minuto.
 
 ## Operaciones conectadas
 

@@ -3,7 +3,7 @@ export type DatosProducto = Pick<Producto, "nombre" | "precio" | "stock">;
 export type InfoApi = { nombre: string; version: string; mensaje: string };
 export type SaludApi = { status: string; database: string };
 
-export const API_URL = (process.env.NEXT_PUBLIC_API_URL || "https://backendupbtest.onrender.com").replace(/\/+$/, "");
+export const API_URL = (process.env.NEXT_PUBLIC_API_URL || "https://backendupbtest-1.onrender.com").replace(/\/+$/, "");
 
 async function request<T>(path: string, options: RequestInit = {}): Promise<T> {
   let response: Response;
