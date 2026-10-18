@@ -44,3 +44,9 @@ firebase-debug.log
 
 # Firebase Hosting local cache
 .firebase/
+
+# Diagnosticos y credenciales locales
+firebase-debug.*.log
+.runtimeconfig.json
+*service-account*.json
+*serviceAccount*.json
